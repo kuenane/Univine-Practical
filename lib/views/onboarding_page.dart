@@ -61,7 +61,6 @@ class OnboardingPage extends StatelessWidget {
                         })),
               ),
             ),
-
             Positioned(
               right: 20,
               bottom: 120,
@@ -88,17 +87,6 @@ class OnboardingPage extends StatelessWidget {
                 ),
               ),
             ),
-            // Positioned(
-            //   left: 20,
-            //   bottom: 100,
-            //   child: FloatingActionButton(
-            //     elevation: 0,
-            //     onPressed: _controller.buttonEventAction,
-            //     child: Obx(() {
-            //       return Text(!_controller.isFirstPage ? 'Back' : 'Back');
-            //     }),
-            //   ),
-            // )
           ],
         ),
       ),
